@@ -531,7 +531,7 @@
         </div>
       </div>
     </div>
-
+    <projects />
     <!-- best choice  -->
     <div class="choice">
       <br />
@@ -717,11 +717,13 @@
 
 <script>
 import Response from "./Response.vue";
+import Projects from "./Projects.vue";
 
 export default {
   name: "Home",
   components: {
     Response,
+    Projects,
   },
 };
 </script>
