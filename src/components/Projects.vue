@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <!-- <div>
     <br />
     <br />
     <p class="big-heading"><u>Our Best Projects</u></p>
@@ -86,15 +86,76 @@
         </div>
       </div>
     </div>
+  </div> -->
+
+  <div>
+    <div id="slider">
+      <figure>
+        <img src="../assets/project-pics1.png" alt="" />
+        <img src="../assets/project-pics2.png" alt="" />
+        <img src="../assets/project-pics3.png" alt="" />
+        <img src="../assets/project-pics1.png" alt="" />
+        <img src="../assets/project-pics2.png" alt="" />
+      </figure>
+    </div>
+    <br />
+    <br />
   </div>
 </template>
 
 <style>
-.projects {
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+#slider img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+
+  50% {
+    left: -200%;
+  }
+
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  75% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+/* .projects {
   padding: 0;
   margin: 0;
-  /* width: 100%;
-  height: 100vh; */
   display: flex;
   align-items: center;
   background-color: rgb(255, 255, 255);
@@ -132,7 +193,7 @@
   width: 240px;
   height: 370px;
   transition: 0.5s;
-  /* filter: saturate(10%); */
+  
 }
 
 .button {
@@ -140,11 +201,11 @@
   width: 240px;
   height: 370px;
   transition: 0.5s;
-  /* background-color: rgba(0, 0, 0, 0.4); */
+  
 }
 
 .button:hover {
-  /* background-color: rgba(0, 0, 0, 0.2); */
+  
 }
 
 #slider-span1:target ~ .image-slider #img1,
@@ -198,7 +259,7 @@
   filter: saturate(100%);
 }
 
-/* image position  */
+
 #slider-span1:target ~ .image-slider {
   left: 70%;
 }
@@ -217,5 +278,5 @@
 }
 #slider-span7:target ~ .image-slider {
   left: -70%;
-}
+} */
 </style>

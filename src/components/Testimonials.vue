@@ -65,18 +65,13 @@
   color: #185fad;
 }
 .all-testi {
-  margin: 0 auto;
-  width: 100%;
+  margin-bottom: 30px;
 }
-.say {
-  box-shadow: 5px 5px 15px 5px #e5e5e5;
-  background-color: #f7f3f3;
-  padding: 1rem;
-}
+
 .say p {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 20px;
   color: #000000;
 }
 .test-img img {
@@ -85,5 +80,39 @@
 .test-img {
   display: flex;
   justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+  .testimonials {
+    background-image: url("../assets/dotted map.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+  .testi {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  .say {
+    box-shadow: 5px 5px 15px 5px #e5e5e5;
+    background-color: #f7f3f3;
+    padding: 1rem;
+  }
+  .say p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .test-img img {
+    width: 6rem;
+  }
+  .test-img {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 </style>

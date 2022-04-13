@@ -1,6 +1,5 @@
 <template>
   <div class="choice">
-    <br />
     <div class="row">
       <div class="col-md-6 give-reason">
         <p class="reason">Why You Should Choose Us ?</p>
@@ -48,7 +47,6 @@
 
 <style>
 .choice {
-  padding: 2rem;
   background-color: white;
 }
 .parent {
@@ -103,5 +101,56 @@
   line-height: 26px;
   color: #000000;
   mix-blend-mode: normal;
+}
+
+@media (max-width: 600px) {
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .img1 {
+    position: relative;
+    width: 500px;
+    top: 0;
+    left: 0;
+  }
+  .img2 {
+    position: absolute;
+    width: 460px;
+    top: 20px;
+    left: 50px;
+  }
+  .give-reason {
+    padding-top: 0;
+  }
+  .reason {
+    padding-top: 0;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 0;
+    width: 90%;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -1px;
+  }
+  .services {
+    padding: 2rem;
+  }
+
+  .service-heading {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .service-write-up {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    mix-blend-mode: normal;
+  }
 }
 </style>

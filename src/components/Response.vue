@@ -124,4 +124,75 @@
   color: #ffffff;
   border: none;
 }
+
+@media screen and (max-width: 600px) {
+  .form-place {
+    background-color: white;
+    padding: 2rem;
+    width: 100%;
+  }
+  /* .side-form {
+    font-family: "Convergence", sans-serif;
+    display: grid;
+    font-size: 1.2rem;
+  } */
+  .form {
+    position: relative;
+    width: 50rem;
+    height: 3rem;
+  }
+  .form input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--primary-dark);
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: var(--bg);
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+  }
+  .form input:hover {
+    border-color: var(--primary-light);
+  }
+  .form input:focus {
+    border-color: var(--primary);
+  }
+  .form label {
+    position: absolute;
+    left: 1rem;
+    top: 0.8rem;
+    padding: 0 0.5rem;
+    color: var(--bg);
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+  }
+
+  .form-input:focus ~ .form-label,
+  .form-input:not(:focus) ~ .form-label {
+    top: -0.5rem;
+    font-size: 0.8rem;
+    left: 0.8rem;
+  }
+  .msg-form {
+    height: 170px;
+  }
+  .message-btn {
+    background: #185fad;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.13);
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    border: none;
+  }
+}
 </style>

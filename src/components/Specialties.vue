@@ -113,7 +113,7 @@
 }
 .alum-text {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 49px;
   padding: 1rem;
   color: #000000;
@@ -137,7 +137,7 @@
 }
 .explain {
   font-weight: 700;
-  font-size: 23px;
+  font-size: 20px;
   line-height: 34px;
   color: #000000;
 }
@@ -173,5 +173,72 @@
   background: #185fad;
   color: white;
   font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .aluminium {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: #185fad;
+  }
+  .alum-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 1rem;
+  }
+  .big-heading {
+    margin-left: 0;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #185fad;
+  }
+  .specialty {
+    padding: 3rem;
+  }
+  .sub-headings {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #185fad;
+  }
+  .explain {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+  }
+  .contact-us {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact-card1 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+    width: 150px;
+  }
+  .contact-card2 {
+    width: 150px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+  }
+  .contact-card3 {
+    width: 110px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+  }
 }
 </style>

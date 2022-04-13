@@ -61,4 +61,31 @@ export default {
   line-height: 21px;
   color: #ffffff;
 }
+
+@media (max-width: 600px) {
+  .reach {
+    background-color: var(--bg);
+    padding: 2rem;
+  }
+  .first-head {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .second-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+
+  .info {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+}
 </style>
