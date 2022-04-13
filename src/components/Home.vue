@@ -790,7 +790,7 @@ export default {
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   #back-slider figure .start-up {
     height: 100vh;
     background-size: cover;
@@ -802,7 +802,7 @@ export default {
   .start-up1::before {
     display: block;
     background-image: url("../assets/HEY Homes front page.jpg");
-    background-size: 500px 700px;
+    background-size: 600px 700px;
     background-repeat: no-repeat;
     /* width: 100%;
     height: 900px; */
@@ -811,7 +811,7 @@ export default {
   .start-up2::before {
     display: block;
     background-image: url("../assets/HEY Homes front page 2.jpg");
-    background-size: 500px 700px;
+    background-size: 600px 700px;
     background-repeat: no-repeat;
     /* width: 100%;
     height: 50%; */
@@ -820,7 +820,7 @@ export default {
   .start-up3::before {
     display: block;
     background-image: url("../assets/Sslider page.jpg");
-    background-size: 500px 700px;
+    background-size: 600px 700px;
     background-repeat: no-repeat;
     /* width: 100%;
     height: 50%; */
@@ -829,7 +829,7 @@ export default {
   .start-up4::before {
     display: block;
     background-image: url("../assets/HEY Homes front page.jpg");
-    background-size: 500px 700px;
+    background-size: 600px 700px;
     background-repeat: no-repeat;
     /* width: 100%;
     height: 50%; */
@@ -838,7 +838,7 @@ export default {
   .start-up5::before {
     display: block;
     background-image: url("../assets/HEY Homes front page 2.jpg");
-    background-size: 500px 700px;
+    background-size: 600px 700px;
     background-repeat: no-repeat;
     /* width: 100%;
     height: 50%; */
@@ -846,18 +846,18 @@ export default {
 
   .beautiful {
     font-size: 3rem;
-    line-height: 70px;
-    font-weight: 500px;
+    line-height: 55px;
+    font-weight: 600px;
   }
   .actions {
-    width: 70%;
+    width: 100%;
   }
 
   .beautiful-words {
     width: 70%;
     margin: auto;
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 600;
     letter-spacing: 0em;
     text-align: left;
     color: #ffffff;

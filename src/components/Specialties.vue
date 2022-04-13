@@ -175,7 +175,7 @@
   font-size: 1rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .aluminium {
     font-weight: 700;
     font-size: 30px;
@@ -219,26 +219,31 @@
   .contact-us {
     margin: 0 auto;
     width: 90%;
-    display: flex;
-    justify-content: space-between;
+    display: block;
   }
   .contact-card1 {
     padding-top: 1rem;
     padding-left: 1rem;
     font-size: 0.9rem;
-    width: 150px;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 30px;
   }
   .contact-card2 {
-    width: 150px;
+    width: 90%;
     padding-top: 1rem;
     padding-left: 1rem;
     font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 30px;
   }
   .contact-card3 {
-    width: 110px;
+    width: 90%;
     padding-top: 1rem;
     padding-left: 1rem;
     font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 30px;
   }
 }
 </style>
