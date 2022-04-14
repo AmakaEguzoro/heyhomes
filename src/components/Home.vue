@@ -445,29 +445,7 @@
     <testimonials />
 
     <!-- reach us  -->
-    <div class="row reach">
-      <div class="col-md-6">
-        <p class="first-head">Reach Us</p>
-        <p class="second-head">
-          Fill up the form and our Team will get back <br />
-          to you within 24 hours.
-        </p>
-        <img class="reach-img" src="../assets/Reach Us (1).png" alt="" />
-        <br />
-        <p class="info">hello@heyhomes.co</p>
-        <br />
-        <p class="info">+234 904 560 4669</p>
-        <br />
-        <p class="info">
-          4B Ologolo Road, Agungi <br />
-          Lekki Lagos State, Nigeria
-        </p>
-      </div>
-
-      <div class="col-md-6">
-        <response />
-      </div>
-    </div>
+    <reach />
 
     <!-- footer  -->
 
@@ -528,20 +506,20 @@
 </template>
 
 <script>
-import Response from "./Response.vue";
 import Projects from "./Projects.vue";
 import Specialties from "./Specialties.vue";
 import Choice from "./Choice.vue";
 import Testimonials from "./Testimonials.vue";
+import Reach from "./Reach.vue";
 
 export default {
   name: "Home",
   components: {
-    Response,
     Projects,
     Specialties,
     Choice,
     Testimonials,
+    Reach,
   },
 };
 </script>
@@ -865,6 +843,31 @@ export default {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     color: #ffffff;
+  }
+
+  .end {
+    background-color: #060b23;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  .bold-end {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .light-end {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  .copyright {
+    padding-left: 0rem;
+  }
+  .license {
+    text-align: center;
   }
 }
 </style>

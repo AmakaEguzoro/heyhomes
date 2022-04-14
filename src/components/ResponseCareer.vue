@@ -177,4 +177,22 @@
   color: #ffffff;
   border: none;
 }
+@media screen and (max-width: 480px) {
+  .form-place {
+    margin-top: 30px;
+    background-color: white;
+    padding: 2rem;
+    width: 100%;
+  }
+  .side-form {
+    font-family: "Convergence", sans-serif;
+    display: grid;
+    font-size: 1.2rem;
+  }
+  .form {
+    position: relative;
+    width: 16rem;
+    height: 3rem;
+  }
+}
 </style>

@@ -89,6 +89,9 @@
   </div> -->
 
   <div>
+    <br />
+    <br />
+    <p class="best-heading"><u>Our Best Projects</u></p>
     <div id="slider">
       <figure>
         <img src="../assets/project-pics1.png" alt="" />
@@ -120,6 +123,15 @@
 #slider img {
   width: 20%;
   float: left;
+}
+
+.best-heading {
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  color: #185fad;
 }
 
 @keyframes slider {
@@ -279,4 +291,15 @@
 #slider-span7:target ~ .image-slider {
   left: -70%;
 } */
+@media (max-width: 480px) {
+  .best-heading {
+    margin-left: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #185fad;
+  }
+}
 </style>

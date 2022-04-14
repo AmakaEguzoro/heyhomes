@@ -46,22 +46,20 @@
           </div>
         </div>
       </nav>
+
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <p class="beautiful">Career</p>
-      <p class="beautiful-words">
-        We are on a path to becoming a globally respected Valuable Brand, and
-        there is always room for individuals with great talent who embrace
-        excellence, innovation and integrity.
-      </p>
-      <br />
-      <div class="actions">
-        <button type="button" class="btn btn-lg qut">Join Us</button>
+      <div class="full-career">
+        <p class="beautiful">Career</p>
+        <p class="beautiful-words">
+          We are on a path to becoming a globally respected Valuable Brand, and
+          there is always room for individuals with great talent who embrace
+          excellence, innovation and integrity.
+        </p>
         <br />
+        <div class="actions">
+          <button type="button" class="btn btn-lg qut">Join Us</button>
+          <br />
+        </div>
       </div>
     </div>
     <br />
@@ -141,6 +139,9 @@ export default {
   -ms-filter: blur(5px);
   filter: brightness(50%);
 }
+.full-career {
+  padding-top: 100px;
+}
 .career-text {
   margin-left: 5rem;
   margin-right: 5rem;
@@ -153,5 +154,69 @@ export default {
   font-size: 25px;
   line-height: 39px;
   color: #ffffff;
+}
+
+@media (max-width: 480px) {
+  .career-page {
+    overflow: auto;
+    position: relative;
+    padding-bottom: 7rem;
+  }
+
+  .career-page::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    display: block;
+    background-image: url("../assets/Career page.jpg");
+    background-size: 600px 700px;
+    background-repeat: no-repeat;
+    /* width: 100%;
+    height: 100%; */
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: brightness(50%);
+  }
+  .full-career {
+    padding-top: 0px;
+  }
+  .beautiful {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 55px;
+    font-weight: 600px;
+  }
+  .beautiful-words {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .qut {
+    margin: 0 auto;
+    width: 10rem;
+    font-size: 1rem;
+    background: #185fad;
+    color: #ffffff;
+  }
+  .career-text {
+    margin-left: 1rem;
+    margin-right: 0rem;
+    border-radius: 35px;
+    padding: 2rem;
+  }
+  .career-write {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+  }
 }
 </style>
