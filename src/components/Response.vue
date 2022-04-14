@@ -137,8 +137,49 @@
   }
   .form {
     position: relative;
-    width: 16rem;
+    width: 20rem;
     height: 3rem;
+  }
+  .form input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--primary-dark);
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: var(--bg);
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+  }
+  .form input:hover {
+    border-color: var(--primary-light);
+  }
+  .form input:focus {
+    border-color: var(--primary);
+  }
+  .form label {
+    position: absolute;
+    left: 1rem;
+    top: 0.8rem;
+    padding: 0 0.5rem;
+    color: var(--bg);
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    background-color: white;
+  }
+
+  .form-input:focus ~ .form-label,
+  .form-input:not(:focus) ~ .form-label {
+    top: -0.5rem;
+    font-size: 0.8rem;
+    left: 0.8rem;
+  }
+  .msg-form {
+    height: 120px;
   }
 }
 </style>

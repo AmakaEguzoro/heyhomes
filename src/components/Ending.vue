@@ -78,4 +78,30 @@
 .license {
   text-align: center;
 }
+@media (max-width: 480px) {
+  .end {
+    background-color: #060b23;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  .bold-end {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .light-end {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  .copyright {
+    padding-left: 0rem;
+  }
+  .license {
+    text-align: center;
+  }
+}
 </style>

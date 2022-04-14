@@ -194,5 +194,8 @@
     width: 16rem;
     height: 3rem;
   }
+  .msg-form {
+    height: 120px;
+  }
 }
 </style>
